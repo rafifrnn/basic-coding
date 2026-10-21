@@ -3,14 +3,17 @@
 
 <head>
     <title style="font-family: ;">XYZ Zoo Animal List</title>
-    <link rel="stylesheet" href="css/style.css">
+    <a><link rel="stylesheet" href="css/style.css"></a>
 </head>
 
 <body>
+    <!-- Header -->
     <div id="header">
         <h1>XYZ Zoo Animal List</h1>
         <img src="img/zoo.jpg" width="1000" />
     </div>
+
+    <!-- List -->
     <div id="Animal List">
         <ol>
             <li>
@@ -68,100 +71,75 @@
             </li>
         </ol>
     </div>
-    <div id="Source">
-        <h2>Source</h2>
-        <ol>
-            <li><a href="https://pexels.com/" target="_blank">Pexels</a><br><br></li>
-            <li><a href="https://pixabay.com/" target="_blank">Pixabay</a><br><br></li>
-        </ol>
+
+    <!--Table  -->
+    <div id="Table">    
+    <h2>Animal Facts</h2>
+        
+    <table>
+        <tr>
+            <th rowspan="2">Family</th>
+            <th rowspan="2">Animal</th>
+            <th colspan="3" style="text-align: center;">Lifestyle</th>
+        </tr>
+        <tr>
+            <th>Diet</th>
+            <th>Habitat</th>
+            <th>Most active</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Feline</td>
+            <td>Lynx</td>
+            <td>Carnivore</td>
+            <td>Forest</td>
+            <td>Dawn and dusk</td>
+        </tr>
+        <tr>
+            <td>Lion</td>
+            <td>Carnivore</td>
+            <td>Savanna</td>
+            <td>Night</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Canine</td>
+            <td>Wolf</td>
+            <td>Carnivore</td>
+            <td>Forest, tundra</td>
+            <td>Dawn and dusk</td>
+        </tr>
+        <tr>
+            <td>Coyote</td>
+            <td>Carnivore</td>
+            <td>Grassland, desert</td>
+            <td>Night</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Bird</td>
+            <td>Parrot</td>
+            <td>Seeds, nuts, fruit</td>
+            <td>Rainforest</td>
+            <td>Day</td>
+        </tr>
+        <tr>
+            <td>Owl</td>
+            <td>Carnivore</td>
+            <td>Forest</td>
+            <td>Night</td>
+        </tr>
+        <tfoot>
+            <td colspan="5" style="text-align: center; font-style: italic;">
+                All animals can be visited every day, 09:00 to 17:00.
+            </td>
+        </tfoot>
+        </table><br>
     </div>
-</body>
 
-<div id="Table">    
-    <head>
-        <h2>Animal Facts</h2>
-        <style>
-            table,
-            th,
-            td {
-                border: solid 1px black;
-                border-collapse: collapse;
-                padding: 5px;
-            }
-        </style>
-    </head>
-
-    <body>
-        <table>
-            <tr>
-                <th rowspan="2">Family</th>
-                <th rowspan="2">Animal</th>
-                <th colspan="3" style="text-align: center;">Lifestyle</th>
-            </tr>
-            <tr>
-                <th>Diet</th>
-                <th>Habitat</th>
-                <th>Most active</th>
-            </tr>
-            <tr>
-                <td rowspan="2">Feline</td>
-                <td>Lynx</td>
-                <td>Carnivore</td>
-                <td>Forest</td>
-                <td>Dawn and dusk</td>
-            </tr>
-            <tr>
-                <td>Lion</td>
-                <td>Carnivore</td>
-                <td>Savanna</td>
-                <td>Night</td>
-            </tr>
-            <tr>
-                <td rowspan="2">Canine</td>
-                <td>Wolf</td>
-                <td>Carnivore</td>
-                <td>Forest, tundra</td>
-                <td>Dawn and dusk</td>
-            </tr>
-            <tr>
-                <td>Coyote</td>
-                <td>Carnivore</td>
-                <td>Grassland, desert</td>
-                <td>Night</td>
-            </tr>
-            <tr>
-                <td rowspan="2">Bird</td>
-                <td>Parrot</td>
-                <td>Seeds, nuts, fruit</td>
-                <td>Rainforest</td>
-                <td>Day</td>
-            </tr>
-            <tr>
-                <td>Owl</td>
-                <td>Carnivore</td>
-                <td>Forest</td>
-                <td>Night</td>
-            </tr>
-            <tfoot>
-                <td colspan="5" style="text-align: center; font-style: italic;">
-                    All animals can be visited every day, 09:00 to 17:00.
-
-                </td>
-            </tfoot>
-        </table>
-    </body>
-</div>
-
-<div id="Form">
-
-    <head>
-        <h2>Plan Your Visit</h2>
-    </head>
-
-    <body>
+    <!-- Form -->
+    <div id="Form">
+    <h2>Plan Your Visit</h2>
         <form>
             <label for="fname">First name</label>
-            <input type="text" id="fname" name="fname" placeholder="e.g Budi Santoso"><br>
+            <input type="text" id="fname" name="fname" placeholder="e.g Budiono Siregar"><br>
 
             <label for="email">Email</label>
             <input type="email" id="email" name="email" placeholder="you@mail.com"><br>
@@ -198,7 +176,15 @@
             <textarea id="w3review" name="w3review" rows="4" cols="20"></textarea><br>
             <input type="submit" value="Book tickets">
         </form>
-    </body>
-</div>
-
+    </div>
+    
+    <!-- Source -->
+    <div id="Source">
+        <h2>Source</h2>
+        <ol>
+            <li><a href="https://pexels.com/" target="_blank">Pexels</a><br><br></li>
+            <li><a href="https://pixabay.com/" target="_blank">Pixabay</a><br><br></li>
+        </ol>
+    </div>
+</body>
 </html>
