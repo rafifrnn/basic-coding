@@ -1,192 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>XYZ Zoo Animal List
-    </title>
+    <title style="font-family: ;">XYZ Zoo Animal List</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-<div id="header">
-     <h1>XYZ Zoo Animal List</h1>
-        <img src="img/zoo.jpg" width="1000"/>
-</div>
-<div id="Animal List">
-    <ol>
-        <h2><li>Feline</li></h2>
-        <ul>
+    <div id="header">
+        <h1>XYZ Zoo Animal List</h1>
+        <img src="img/zoo.jpg" width="1000" />
+    </div>
+    <div id="Animal List">
+        <ol>
             <li>
-                <h3>Lynx</h3>
-                    <a href="img/lynx.jpg" target="_blank">
-                    <img src="img/lynx.jpg" width="500"/>
-                </a>
+                <h2>Feline</h2>
+                <ul>
+                    <li>
+                        <h3>Lynx</h3>
+                        <a href="img/lynx.jpg" target="_blank">
+                            <img src="img/lynx.jpg" width="500" />
+                        </a>
+                    </li>
+                    <li>
+                        <h3>Lion</h3>
+                        <a href="img/lion.jpg" target="_blank">
+                            <img src="img/lion.jpg" alt="Lion" width="500" />
+                        </a>
+                    </li>
+                </ul>
             </li>
-            <li>
-                <h3>Lion</h3>
-                    <a href="img/lion.jpg" target="_blank">
-                    <img src="img/lion.jpg" alt="Lion" width="500"/>
-                 </a>    
-            </li>
-        </ul>
 
-        <h2><li>Canine</li></h2>
-        <ul>
             <li>
-                <h3>Wolf</h3>
-                    <a href="img/wolf.jpg" target="_blank">
-                    <img src="img/wolf.jpg" alt="Lion" width="500"/>
-                 </a> 
-            </li> 
-            <li>
-                <h3>Coyote</h3>
-                    <a href="img/coyote.jpg" target="_blank">
-                    <img src="img/coyote.jpg" alt="Lion" width="500"/>
-                 </a> 
+                <h2>Canine</h2>
+                <ul>
+                    <li>
+                        <h3>Wolf</h3>
+                        <a href="img/wolf.jpg" target="_blank">
+                        <img src="img/wolf.jpg" alt="Lion" width="500" />
+                        </a>
+                    </li>
+                    <li>
+                        <h3>Coyote</h3>
+                        <a href="img/coyote.jpg" target="_blank">
+                        <img src="img/coyote.jpg" alt="Lion" width="500" />
+                        </a>
+                    </li>
+            </ul>
             </li>
-        </ul>
 
-        <h2><li>Bird</li></h2>
-        <ul>
             <li>
-                <h3>Parrot</h3>
-                    <a href="img/parrot.jpg" target="_blank">
-                    <img src="img/parrot.jpg" alt="Lion" width="500"/>
-                 </a> 
+                <h2>Bird</h2>
+                <ul>
+                    <li>
+                        <h3>Parrot</h3>
+                        <a href="img/parrot.jpg" target="_blank">
+                        <img src="img/parrot.jpg" alt="Lion" width="500" />
+                        </a>
+                    </li>
+                    <li>
+                        <h3>Owl</h3>
+                        <a href="img/owl.jpg" target="_blank">
+                        <img src="img/owl.jpg" alt="Lion" width="500" />
+                        </a>
+                    </li>
+            </ul>
             </li>
-            <li>
-                <h3>Owl</h3>
-                    <a href="img/owl.jpg" target="_blank">
-                    <img src="img/owl.jpg" alt="Lion" width="500"/>
-                 </a> 
-            </li>
-        </ul>
-    </ol>
-</div>
-<div id="Source">
-    <h2>Source</h2>
+        </ol>
+    </div>
+    <div id="Source">
+        <h2>Source</h2>
         <ol>
             <li><a href="https://pexels.com/" target="_blank">Pexels</a><br><br></li>
             <li><a href="https://pixabay.com/" target="_blank">Pixabay</a><br><br></li>
         </ol>
-</div>
+    </div>
 </body>
 
-<div id="Table">
-<head>
-    <h2>Animal Facts</h2>
-</head>
+<div id="Table">    
+    <head>
+        <h2>Animal Facts</h2>
+        <style>
+            table,
+            th,
+            td {
+                border: solid 1px black;
+                border-collapse: collapse;
+                padding: 5px;
+            }
+        </style>
+    </head>
 
-<body>
-<table>
-    <tr>
-        <th rowspan="2">Family</th>
-        <th rowspan="2">Animal</th>
-        <th colspan="3" style="text-align: center;">Lifestyle</th>
-    </tr>
-    <tr>
-      <th>Diet</th>
-      <th>Habitat</th>
-      <th>Most active</th>
-    </tr>
-    <tr>
-        <td rowspan="2">Feline</td>
-        <td>Lynx</td>
-        <td>Carnivore</td>
-        <td>Forest</td>
-        <td>Dawn and dusk</td>
-    </tr>
-    <tr>
-        <td>Lion</td>
-        <td>Carnivore</td>
-        <td>Savanna</td>
-        <td>Night</td>
-    </tr>
-    <tr>
-        <td rowspan="2">Canine</td>
-        <td>Wolf</td>
-        <td>Carnivore</td>
-        <td>Forest, tundra</td>
-        <td>Dawn and dusk</td>
-    </tr>
-    <tr>
-        <td>Coyote</td>
-        <td>Carnivore</td>
-        <td>Grassland, desert</td>
-        <td>Night</td>
-    </tr>
-        <tr>
-        <td rowspan="2">Bird</td>
-        <td>Parrot</td>
-        <td>Seeds, nuts, fruit</td>
-        <td>Rainforest</td>
-        <td>Day</td>
-    </tr>
-    <tr>
-        <td>Owl</td>
-        <td>Carnivore</td>
-        <td>Forest</td>
-        <td>Night</td>
-    </tr>
-    <tfoot>
-        <td colspan="5" style="text-align: center; font-style: italic;">
-            All animals can be visited every day, 09:00 to 17:00.
+    <body>
+        <table>
+            <tr>
+                <th rowspan="2">Family</th>
+                <th rowspan="2">Animal</th>
+                <th colspan="3" style="text-align: center;">Lifestyle</th>
+            </tr>
+            <tr>
+                <th>Diet</th>
+                <th>Habitat</th>
+                <th>Most active</th>
+            </tr>
+            <tr>
+                <td rowspan="2">Feline</td>
+                <td>Lynx</td>
+                <td>Carnivore</td>
+                <td>Forest</td>
+                <td>Dawn and dusk</td>
+            </tr>
+            <tr>
+                <td>Lion</td>
+                <td>Carnivore</td>
+                <td>Savanna</td>
+                <td>Night</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Canine</td>
+                <td>Wolf</td>
+                <td>Carnivore</td>
+                <td>Forest, tundra</td>
+                <td>Dawn and dusk</td>
+            </tr>
+            <tr>
+                <td>Coyote</td>
+                <td>Carnivore</td>
+                <td>Grassland, desert</td>
+                <td>Night</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Bird</td>
+                <td>Parrot</td>
+                <td>Seeds, nuts, fruit</td>
+                <td>Rainforest</td>
+                <td>Day</td>
+            </tr>
+            <tr>
+                <td>Owl</td>
+                <td>Carnivore</td>
+                <td>Forest</td>
+                <td>Night</td>
+            </tr>
+            <tfoot>
+                <td colspan="5" style="text-align: center; font-style: italic;">
+                    All animals can be visited every day, 09:00 to 17:00.
 
-      </td>
-    </tfoot>
-</table>
-<style>
-	table, th, td {
-		border: solid 1px black;
-        border-collapse: collapse;
-        padding: 5px;
-	}
-    </style>
-</body>
+                </td>
+            </tfoot>
+        </table>
+    </body>
 </div>
 
 <div id="Form">
-<head>
-    <h2>Plan Your Visit</h2>
-</head>
 
-<body>
-<form>
-    <label for="fname">First name</label>
-    <input type="text" id="fname" name="fname" placeholder="e.g Budi Santoso"><br>
-    
-    <label for="email">Email</label>
-    <input type="email" id="email" name="email" placeholder="you@mail.com"><br>
-    
-    <label for="visitdate">Visit date</label>
-    <input type="date" id="visitdate" name="visitdate"><br>
+    <head>
+        <h2>Plan Your Visit</h2>
+    </head>
 
-    <label for="tickets">Tickets</label>
-    <input type="number" id="tickets" name="tickets" value="1" style="width: 50px;"><br>
+    <body>
+        <form>
+            <label for="fname">First name</label>
+            <input type="text" id="fname" name="fname" placeholder="e.g Budi Santoso"><br>
 
-    <label for="ttype">Ticket type</label>
-    <select id="ttype" name="ttype">
-        <option value="Adult">Adult</option>
-        <option value="Child">Student</option>
-        <option value="Senior">Child</option>
-    </select><br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@mail.com"><br>
 
-    <fieldset style="display: inline-block; width:">
-    <legend>Which area do you want to see first?</legend>
-        <input type="radio" id="feline" name="area" value="Feline">
-        <label for="feline">Feline</label>
+            <label for="visitdate">Visit date</label>
+            <input type="date" id="visitdate" name="visitdate"><br>
 
-        <input type="radio" id="canine" name="area" value="Canine">
-        <label for="canine">Canine</label>
+            <label for="tickets">Tickets</label>
+            <input type="number" id="tickets" name="tickets" value="1" style="width: 50px;"><br>
 
-        <input type="radio" id="bird" name="area" value="Bird">
-        <label for="bird">Bird</label>
-    </fieldset><br>
+            <label for="ttype">Ticket type</label>
+            <select id="ttype" name="ttype">
+                <option value="Adult">Adult</option>
+                <option value="Child">Student</option>
+                <option value="Senior">Child</option>
+            </select><br>
 
-    <input type="checkbox" id="news" name="news">
-    <label for="news">Send me news about the zoo</label><br>
+            <fieldset style="display: inline-block; width:">
+                <legend>Which area do you want to see first?</legend>
+                <input type="radio" id="feline" name="area" value="Feline">
+                <label for="feline">Feline</label>
 
-    <label for="questions">Questions or requests</label>
-    <textarea id="w3review" name="w3review" rows="4" cols="20"></textarea><br>
-    <input type="submit" value="Book tickets">
-</form>
-</body>
+                <input type="radio" id="canine" name="area" value="Canine">
+                <label for="canine">Canine</label>
+
+                <input type="radio" id="bird" name="area" value="Bird">
+                <label for="bird">Bird</label>
+            </fieldset><br>
+
+            <input type="checkbox" id="news" name="news">
+            <label for="news">Send me news about the zoo</label><br>
+
+            <label for="questions">Questions or requests</label>
+            <textarea id="w3review" name="w3review" rows="4" cols="20"></textarea><br>
+            <input type="submit" value="Book tickets">
+        </form>
+    </body>
 </div>
+
 </html>
